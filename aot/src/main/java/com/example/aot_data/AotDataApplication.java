@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.Collection;
 import java.util.Objects;
 
-@SpringBootApplication
+@SpringBootApplication(proxyBeanMethods = false)
 public class AotDataApplication {
 
     public static void main(String[] args) {
